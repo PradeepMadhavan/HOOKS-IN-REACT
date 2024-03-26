@@ -1,8 +1,12 @@
+@import 'primereact/resources/themes/saga-blue/theme.css';
+@import 'primereact/resources/primereact.min.css';
+@import 'primeicons/primeicons.css';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif;                 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +14,140 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+  #cove{
+    background-image: url(../public/Assets/image/simpol.jpeg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #homebg{
+  background-color: rgb(195, 250, 232);
+    height: 88vh;
+    display: flex; 
+    justify-content:center;
+    align-items:center;
+    
+  }
+  .welcome{
+    text-align: center;
+    align-items: center;
+  }
+  .welcome:hover{
+background-color: rgb(197, 189, 30);
+color: aliceblue  ;
+  }
+ 
+  #pics{
+    background-image: url(../public/Assets/image/HD\ wallpaper_\ Windows\ 10\,\ abstract\,\ landscape.jpeg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.butt{
+  height: 30px;
+  width: 70px !important;
+  align-items: center;
+
+}
+.baac{
+  
+  margin-top:-5px !important;
+}
+.rad{
+  width: 30px;
+  height: 30px !important;
+}
+.eye{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px rgb(93, 200, 233);
+  border: none !important;
+}
+.input{
+  border-right: none !important;
+}
+.loading-spinner-container {
+  display: flex;
+  color: #f8f9fa;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 7000;
+}
+.flex{
+  display: flex;
+  justify-content: end !important;
+}
+/* .good{
+  align-items: center;
+} */
+.shot{
+  padding: 4px;
+}
+.show-password-button {
+  position: absolute;
+  /* top: 0%;  */
+  /* right: 10px;  */
+  transform: translateY(-100%); /* Center vertically */
+  background: none;
+  border: none;
+  display: flex;
+  cursor: pointer;
+  margin-left: 400px;
+}
+.show-password-buttonn {
+  position: absolute;
+  /* top: 0%;  */
+  /* right: 10px;  */
+  transform: translateY(-100%); /* Center vertically */
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 480px;
+}
+.hwa:hover{
+  background-color: beige;
+  border-radius: 2rem;
+  /* font-size: 20px; */
+}
+/* .what li{
+  background-color: aquamarine;
+  
+} */
+#same{
+  display: flex;
+  justify-content: end;
+}
+#bgs{
+  background-color: rgb(157, 220, 244);
+}
+/* #bgs:hover{
+  
+} */
+.dropsec{
+  margin-left: 5px;
+}
+.dropsec:hover{
+  background-color: beige;
+}
+.contback{
+  position: absolute;
+  left: 3%;
+
+}
+/* @media only screen and (max-width:425px) {
+
+.threebut{
+display: none;
+}
+} */
+@media only screen and (max-width: 426px) {
+  .threebut {
+    position: relative;
+    left:60%;
+  }
 }
